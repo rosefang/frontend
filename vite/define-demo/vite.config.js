@@ -7,7 +7,6 @@ export default defineConfig(({mode}) => {
       ENV_TYPE_1: true,
       ENV_TYPE_2: JSON.stringify('cloud'),
     },
-    base: 'v2',
     build: {
       rollupOptions: {
         input : {
